@@ -37,8 +37,8 @@ app.get('/:number_of_bottles', (req, res) => {
             <h2>Beer run...</h2> <br
             <h3><a href="http://localhost:3000/99">Nose goes!</a><h3>
         </body>
-    </html>`)
-})
+    </html>`);
+});
 
 app.listen(port, () => {
     console.log('listening on port', port);
